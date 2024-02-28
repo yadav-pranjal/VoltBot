@@ -156,4 +156,4 @@ def record_audio():
         print(f"Could not request results from Google Speech Recognition service; {e}")
 
 if __name__ == "__main__":
-    app.run(debug=False, host='0.0.0.0')
+    app.run(debug=True)
