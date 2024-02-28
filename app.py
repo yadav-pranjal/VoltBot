@@ -3,8 +3,6 @@
 
 from flask import Flask, render_template, request, redirect, url_for 
 import os
-import sounddevice as sd
-import soundfile as sf
 import speech_recognition as sr
 from PyPDF2 import PdfReader
 import  google.generativeai as genai
